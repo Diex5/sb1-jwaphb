@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-ecommerce",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "HOST=0.0.0.0 nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "@unocss/nuxt": "^0.58.5",
+    "nuxt": "^3.13.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "primevue": "^3.50.0",
+    "primeicons": "^6.0.1",
+    "@stripe/stripe-js": "^3.0.7",
+    "vue": "^3.4.19",
+    "@vue/runtime-dom": "^3.4.19"
+  }
+}
